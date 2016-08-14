@@ -3,8 +3,9 @@ module.exports = {
   devtool: 'source-map',
   entry: './index.js',
   output: {
-    path: __dirname + '/build',
-    publicPath: '/build',
+    path: __dirname + '/build/',
+    publicPath: '/cfrp-analytics/build/',	// Staging
+    // publicPath: '/js/app/', 				// Production
     filename: 'bundle.js'
   },
   module: {
